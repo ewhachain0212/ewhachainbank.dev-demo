@@ -1,0 +1,27 @@
+{
+  "name": "ewhachainbank.dev-demo",
+  "version": "1.0.0",
+  "description": "EWHA-CHAIN 13th 솔리디티 및 스마트 컨트랙트 개발 실습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.3",    
+    "@nomiclabs/hardhat-etherscan": "^2.1.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@typechain/ethers-v5": "^7.2.0",
+    "@typechain/hardhat": "^2.3.1",
+    "hardhat": "^2.9.1",
+    "ts-node": "^10.4.0",
+    "typechain": "^5.2.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^5.5.2"
+  }
+}
