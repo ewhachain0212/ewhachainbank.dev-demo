@@ -1,4 +1,4 @@
-const CONTRACT_ADDRESS = "Mumbai Testnet에 배포한 컨트랙트 주소"
+const CONTRACT_ADDRESS = "0x64a22992EC2D78EaB9Be46c0DcC80044fbB58092"
 
 async function getBalance(contractAddress) {
     const EwhachainBank = await ethers.getContractFactory("EwhachainBank") // EwhachainBank 컨트랙트를 인스턴스를 생성
